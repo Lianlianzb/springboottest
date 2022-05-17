@@ -12,13 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-    class Test{
-        private int m;
-        public  void fun() {
-            // some code...
-        }
-    }
-
     @GetMapping("/hello")
     public String helloTest(){
         return "Hello,World!";
